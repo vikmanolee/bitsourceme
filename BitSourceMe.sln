@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitSourceMe.WebApi", "BitSourceMe.WebApi\BitSourceMe.WebApi.csproj", "{5F97AF93-D454-4BAC-8F9D-025315728D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitSourceMe.Core", "BitSourceMe.Core\BitSourceMe.Core.csproj", "{E565012C-D2C1-4AF4-9381-D5BCFAFC5C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitSourceMe.Data", "BitSourceMe.Data\BitSourceMe.Data.csproj", "{B362A49A-7D3E-4610-853D-F031F909F2BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitSourceMe.Core.Abstractions", "BitSourceMe.Core.Abstractions\BitSourceMe.Core.Abstractions.csproj", "{5784EFCF-B83C-416B-8242-D6867BC738F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitSourceMe.Data.Redis", "BitSourceMe.Data.Redis\BitSourceMe.Data.Redis.csproj", "{62C97112-8F35-4517-B207-C5A9AC5111A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitSourceMe.Data.Sqlite", "BitSourceMe.Data.Sqlite\BitSourceMe.Data.Sqlite.csproj", "{87B78BDA-7361-4154-9E7A-4008F8D20750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitSourceMe.Data.InMemory", "BitSourceMe.Data.InMemory\BitSourceMe.Data.InMemory.csproj", "{FD59E258-AC8D-414D-9A20-C3DAD3C5F278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F97AF93-D454-4BAC-8F9D-025315728D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F97AF93-D454-4BAC-8F9D-025315728D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F97AF93-D454-4BAC-8F9D-025315728D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F97AF93-D454-4BAC-8F9D-025315728D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E565012C-D2C1-4AF4-9381-D5BCFAFC5C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E565012C-D2C1-4AF4-9381-D5BCFAFC5C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E565012C-D2C1-4AF4-9381-D5BCFAFC5C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E565012C-D2C1-4AF4-9381-D5BCFAFC5C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B362A49A-7D3E-4610-853D-F031F909F2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B362A49A-7D3E-4610-853D-F031F909F2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B362A49A-7D3E-4610-853D-F031F909F2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B362A49A-7D3E-4610-853D-F031F909F2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5784EFCF-B83C-416B-8242-D6867BC738F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5784EFCF-B83C-416B-8242-D6867BC738F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5784EFCF-B83C-416B-8242-D6867BC738F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5784EFCF-B83C-416B-8242-D6867BC738F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C97112-8F35-4517-B207-C5A9AC5111A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C97112-8F35-4517-B207-C5A9AC5111A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C97112-8F35-4517-B207-C5A9AC5111A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C97112-8F35-4517-B207-C5A9AC5111A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B78BDA-7361-4154-9E7A-4008F8D20750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B78BDA-7361-4154-9E7A-4008F8D20750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B78BDA-7361-4154-9E7A-4008F8D20750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B78BDA-7361-4154-9E7A-4008F8D20750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD59E258-AC8D-414D-9A20-C3DAD3C5F278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD59E258-AC8D-414D-9A20-C3DAD3C5F278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD59E258-AC8D-414D-9A20-C3DAD3C5F278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD59E258-AC8D-414D-9A20-C3DAD3C5F278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
